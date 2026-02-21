@@ -1,7 +1,6 @@
 import os
 import faiss
 import json
-import stdin
 from sentence_transformers import SentenceTransformer
 import ollama
 
@@ -81,7 +80,7 @@ def main():
 
     print("\n\tSources:\t\n")
     for i, c in enumerate(contexts, start=1):
-        print(f"""[{i}] {c["source"]}  (page {c["source"]}) score={c['score']:.3f}""")
+        print(f"""[{i}] {c["source"]}  (page {c["page"]}) score={c['score']:.3f}""")
         
 
 if __name__ == "__main__":

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q01",
+    "question": "Résume les points clés de l’introduction.",
+    "expected_type": "summary",
+    "notes": "Question de résumé"
+  },
+  {
+    "id": "q02",
+    "question": "Quelle est la définition principale donnée dans le document ?",
+    "expected_type": "factual",
+    "notes": "Question factuelle"
+  },
+  {
+    "id": "q03",
+    "question": "Quelles hypothèses sont mentionnées pour la méthode présentée ?",
+    "expected_type": "factual",
+    "notes": ""
+  },
+  {
+    "id": "q04",
+    "question": "Résume la section sur les résultats / expériences.",
+    "expected_type": "summary",
+    "notes": ""
+  },
+  {
+    "id": "q05",
+    "question": "Quels avantages et limites sont mentionnés ?",
+    "expected_type": "summary",
+    "notes": ""
+  },
+  {
+    "id": "q06",
+    "question": "Quelle est la capitale du Japon ?",
+    "expected_type": "out_of_scope",
+    "notes": "Hors document"
+  },
+  {
+    "id": "q07",
+    "question": "Quel est le salaire moyen en France en 2024 ?",
+    "expected_type": "out_of_scope",
+    "notes": "Hors document / hors source"
+  },
+  {
+    "id": "q08",
+    "question": "Donne la formule principale utilisée dans le document (si elle est explicitement donnée).",
+    "expected_type": "factual",
+    "notes": ""
+  },
+  {
+    "id": "q09",
+    "question": "Quels sont les concepts les plus importants à retenir ?",
+    "expected_type": "summary",
+    "notes": ""
+  },
+  {
+    "id": "q10",
+    "question": "Le document parle-t-il de réseaux sociaux et de marketing ?",
+    "expected_type": "out_of_scope",
+    "notes": "Vérifier la prudence de la réponse"
+  }
+]
